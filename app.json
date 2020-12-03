@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/choose/choose",
+    "pages/manual/index",
+    
+    "pages/logs/logs",
+    "pages/tasks/tasks",
+    "pages/messages/messages",
+    "pages/advices/advices",
+    "pages/time/time"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#100e33e8",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "/image/bluebooks.png",
+        "iconPath": "/image/books.png",
+        "pagePath": "pages/manual/index"
+      },
+      {
+        "selectedIconPath": "/image/bluetime.png",
+        "iconPath": "/image/time.png",
+        "pagePath": "pages/time/time"
+      },
+      {
+        "selectedIconPath": "/image/setting.png",
+        "iconPath": "/image/bluesetting.png",
+        "pagePath": "pages/index/index"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
